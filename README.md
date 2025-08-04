@@ -1,65 +1,78 @@
-🖥️ Inventory Management System - Backend
-This is the backend REST API for the Inventory Management System, built using Spring Boot.
-It provides endpoints to manage Products, Categories, Suppliers, Purchases, Sales, and User Authentication.
+# Inventory Management System - Backend
 
-🔧 Setup Instructions
-✅ Prerequisites
-Java 17+ (or compatible JDK)
+🖥️ **Overview**
+This is the backend REST API for the Inventory Management System built using Spring Boot.
+It provides all the necessary endpoints to manage products, categories, suppliers, purchases, sales, and user authentication.
 
-Maven
+---
 
-MySQL
+## 🔧 Setup Instructions
 
-IDE (Eclipse, IntelliJ, VSCode)
+### ✅ Prerequisites
 
-Backend runs at: http://localhost:8080/
+* Java 17+ or compatible JDK installed
+* Maven installed (for dependency management and build)
+* MySQL installed and running
+* Backend API will run on: `http://localhost:8080/`
 
-🛠️ Installation & Running
-bash
-Copy
-Edit
-git clone https://github.com/spuffyffets/Inventory-Management-System.git
+---
+
+## 🛠️ Installation & Running Backend
+
+```bash
+git clone [https://github.com/spuffyffets/Inventory-Management-System.git](https://github.com/Rutu-TChaugale/Inventory_Management_system_backend.git)
 cd Inventory-Management-System
-Step-by-Step:
-Open the project in your IDE.
+```
 
-Configure MySQL database in src/main/resources/application.properties:
+1. Open the project in your favorite IDE (Eclipse, IntelliJ, VSCode).
+2. Configure the MySQL database connection in `src/main/resources/application.properties`:
 
-properties
-Copy
-Edit
-spring.datasource.url=jdbc:mysql://localhost:3306/inventory_db01
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/inventory_db
 spring.datasource.username=your_mysql_username
 spring.datasource.password=your_mysql_password
 spring.jpa.hibernate.ddl-auto=update
-Create the database (if not already present):
+```
 
-sql
-Copy
-Edit
-CREATE DATABASE inventory_db01;
-Run the project using your IDE or with the command:
+3. Make sure the database `inventory_db01` exists. If not, create it using:
 
-bash
-Copy
-Edit
+```sql
+CREATE DATABASE inventory_db;
+```
+
+4. Run the application using your IDE or with:
+
+```bash
 mvn spring-boot:run
-🔗 Frontend Repository
-Make sure to clone and run the frontend separately for full functionality.
+```
 
-Frontend (Angular): Frontend Repository <!-- Replace with actual link if available -->
+---
 
-📚 Technologies Used
-Java 17+
+## 🔗 Frontend Repo
 
-Spring Boot (Web, Data JPA, Security)
+Make sure to clone and run the frontend application separately for the full system:
 
-Hibernate ORM
+🔗 **Frontend Repo:** `frontend (Angular)`
 
-MySQL
+> *(Replace with actual GitHub link if available)*
 
-Maven
+---
 
-✍️ Author
-Rutika Chaugale
-📧 chaugalerutu7770@gmail.com
+## 📚 Technologies Used
+
+* Java 17+
+* Spring Boot (Web, Data JPA, Security)
+* Hibernate ORM
+* MySQL
+* Maven
+
+---
+
+## ✍️ Author
+
+**Rutika Chaugale**
+📧 [chaugalerutu7770@gmail.com](mailto:chaugalerutu7770@gmail.com)
+
+---
+
+Let me know if you want this in `.md` file format.
