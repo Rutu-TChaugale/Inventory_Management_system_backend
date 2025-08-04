@@ -53,7 +53,8 @@ mvn spring-boot:run
 
 Make sure to clone and run the frontend application separately for the full system:
 
-🔗 **Frontend Repo:** `frontend (Angular)`
+
+🔗 Frontend Repo: [frontend (Angular)](https://github.com/Rutu-TChaugale/Inventory_Management_system_frontend.git)
 
 
 ---
