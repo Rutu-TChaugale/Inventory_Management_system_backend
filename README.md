@@ -21,7 +21,7 @@ It provides all the necessary endpoints to manage products, categories, supplier
 ## 🛠️ Installation & Running Backend
 
 ```bash
-git clone [https://github.com/spuffyffets/Inventory-Management-System.git](https://github.com/Rutu-TChaugale/Inventory_Management_system_backend.git)
+git clone [https://github.com/spuffyffets/Inventory-Management-System.git]
 cd Inventory-Management-System
 ```
 
