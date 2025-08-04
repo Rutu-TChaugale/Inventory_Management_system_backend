@@ -21,7 +21,7 @@ It provides all the necessary endpoints to manage products, categories, supplier
 ## 🛠️ Installation & Running Backend
 
 ```bash
-git clone [https://github.com/spuffyffets/Inventory-Management-System.git]
+git clone [https://github.com/Rutu-TChaugale/Inventory_Management_system_backend.git]
 cd Inventory-Management-System
 ```
 
@@ -35,7 +35,7 @@ spring.datasource.password=your_mysql_password
 spring.jpa.hibernate.ddl-auto=update
 ```
 
-3. Make sure the database `inventory_db01` exists. If not, create it using:
+3. Make sure the database `inventory_db0` exists. If not, create it using:
 
 ```sql
 CREATE DATABASE inventory_db;
@@ -76,4 +76,3 @@ Make sure to clone and run the frontend application separately for the full syst
 
 ---
 
-Let me know if you want this in `.md` file format.
