@@ -1,6 +1,7 @@
 # Inventory Management System - Backend
 
 🖥️ **Overview**
+
 This is the backend REST API for the Inventory Management System built using Spring Boot.
 It provides all the necessary endpoints to manage products, categories, suppliers, purchases, sales, and user authentication.
 
@@ -54,7 +55,6 @@ Make sure to clone and run the frontend application separately for the full syst
 
 🔗 **Frontend Repo:** `frontend (Angular)`
 
-> *(Replace with actual GitHub link if available)*
 
 ---
 
